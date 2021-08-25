@@ -6,7 +6,7 @@ function Navbar() {
         <div className='navbar'>
             <div className='nav-center'>
                 <Link to='/'>
-                    <h3 className='logo'>cocktail</h3> 
+                    <h3 className='logo'>Cocktail</h3> 
                 </Link>
                 <ul className='nav-links'>
                     <li>
