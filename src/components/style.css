@@ -1,0 +1,99 @@
+.navbar{
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0px 4px 5px  rgb(192, 181, 181);
+}
+.nav-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.phone-section{
+    text-align: center;
+}
+h1{
+    color: rgb(141, 140, 133);
+    font-weight: 200;
+}
+.phone-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.phone{
+width: 350px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+margin: 20px 10px;
+box-shadow: 0px 0px 20px rgb(216, 215, 208);
+}
+img{
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+}
+.section{
+    width: 300px;
+    height: 100px;
+    box-shadow: 0 10px  10px rgb(179, 165, 165);
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    line-height: 30px;
+    justify-content: start;
+}
+label{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+input{
+    width: 250px;
+}
+.cocktail-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-top: 30px;
+    border: 1px solid green;
+    height: 30px;
+    width: 100px;
+    text-transform: capitalize;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 27px;
+}
+span{
+    color: rgb(82, 124, 72);
+    background: rgb(194, 223, 174);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.drink{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.drink-info{
+    text-align: left;
+    line-height: 50px;
+    margin-left: 20px;
+}
